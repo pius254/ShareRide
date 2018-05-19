@@ -94,7 +94,7 @@ a{
 img {
     max-width: 100%;
 }
-textarea,
+/*textarea,
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -109,21 +109,21 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
-.uneditable-input {
+/*.uneditable-input {
     outline: none;
-}
+}*/
 /*.form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
     height: 45px;
-}*/
+}s
 .form-control {
     display: inline-block;
     height: 35px;
     padding: 6px 25px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
+    color: white;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
@@ -136,7 +136,7 @@ input[type="color"],
 }
 .form-control:focus {
     border-color: #bcefeb;
-}
+}*/
 
 h1,
 h2,
@@ -1142,7 +1142,11 @@ input::-ms-input-placeholder {
 
 }
 
-
+/*Registration*/
+#registration {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 

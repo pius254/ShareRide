@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+
+Route::group(['middleware' => ['web']], function(){
+
+	Route::get('/', function () {
+    	return view('index');
+	});
+
+	Route::get('/signup', function (){
+		return view('layouts.signup');
+	});
+
+	Route::post('/signup', ['as' => 'register', 'uses' => 'RegisterController@create']);
 });
