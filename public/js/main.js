@@ -79,12 +79,12 @@ jQuery(document).ready(function ($) {
 
 // magnificPopup
 
-    $('.portfolio-img').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-    });
+    // $('.portfolio-img').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     },
+    // });
 
 //    $('.portfolio-video').magnificPopup({
 //        items: [

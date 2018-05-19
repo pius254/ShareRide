@@ -172,7 +172,7 @@ h4 {
     font-size: 0.875rem;
     line-height: 2rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'robotoblack';
 }
 h5 {
@@ -589,6 +589,7 @@ input::-ms-input-placeholder {
 .home{
     background: url(../images/desk.jpg) no-repeat 100% 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .home .main_home{
@@ -653,6 +654,7 @@ input::-ms-input-placeholder {
 .video{
     background: url(../images/videobg.jpg) no-repeat top center;
     background-size:cover;
+    background-attachment: fixed;
 }
 .video .main_video{
     padding: 200px 0px;
@@ -845,6 +847,7 @@ input::-ms-input-placeholder {
 .testimonial{
     background: url(../images/mbcom_events_classic.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .main_testimonial {
     color:#fff;
@@ -977,6 +980,7 @@ input::-ms-input-placeholder {
     background: url(../images/footerbg.jpg) no-repeat top center;
     color:#fff;
     background-size: cover;
+    background-attachment: fixed;
 }
 .footer_widget .main_widget{
     padding: 55px 15px 80px 15px; 

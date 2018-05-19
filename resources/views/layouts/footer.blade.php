@@ -42,10 +42,10 @@
 
                                         </form>
                                         <div class="flowus">
-                                        <a href="https://www.facebook.com/kaboom.pius"><i class="fa fa-facebook"></i></a>
-                                            <a href="https://twitter.com/pius_wanjiru"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://www.linkedin.com/in/pius-wanjiru"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/pius254/"><i class="fa fa-github"></i></a>
+                                        <a href="https://www.facebook.com/kaboom.pius" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://twitter.com/pius_wanjiru" target="_blank"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/in/pius-wanjiru" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/pius254/" target="_blank"><i class="fa fa-github"></i></a>
                                         </div>
 
 
@@ -65,7 +65,7 @@
                             </div>
                             <div class="col-sm-6 col-xs-12">
                                 <div class="copyright_text">
-                                    <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://piuswanjiru.herokuapp.com">Pius</a> ShareRide &copy; 2018. All Rights Reserved</p>
+                                    <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://piuswanjiru.herokuapp.com" target="_blank">Pius</a> ShareRide &copy; <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>

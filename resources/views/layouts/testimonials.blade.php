@@ -12,7 +12,7 @@
 
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="1">
-                                    <img class="img-responsive img-circle" src="{{ asset('images/test1.jpg') }}" alt="">
+                                    <img class="img-responsive img-circle" src="{{ asset('images/test2.jpg') }}" alt="">
 
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="2">

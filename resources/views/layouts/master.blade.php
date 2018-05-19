@@ -7,9 +7,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Welcome To ShareRide</title>
-        <meta name="description" content="">
+        <meta name="description" content="The most reliable and affordable means of commuting">
+        <meta name="keywords" content="ShareRide, Book Ride, Hire Car, Pius, Wanjiru, Muriithi,">
+        <meta name="author" content="Pius,Muriithi,Wanjiru,Pius Muriithi,Pius Wanjiru,Pius Muriithi Wanjiru,Kaboom,Pius M. Wanjiru">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="shortcut icon" href="<i class='fa fa-car'></i>" type="image/x-icon"/>
 
 
         <link rel="stylesheet" href="{{ asset('css/fonticons.css') }}">

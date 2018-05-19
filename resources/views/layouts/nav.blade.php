@@ -14,7 +14,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <a class="navbar-brand" href="#home">
-                                    <!-- <img src="{{ asset('images/logo.png') }}"/> --><span><i class="fa fa-car fa-2x" style="color:white;"></i></span>
+                                    <!-- <img src="{{ asset('images/logo.png') }}"/> --><span style="color:white;"><i class="fa fa-car fa-2x"></i> ShareRide Inc.</span>
                                 </a>
                             </div>
 
