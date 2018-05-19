@@ -11,26 +11,26 @@
                     <h1 class="text-uppercase text-center wow fadeInDown animated" data-wow-delay="2s">create account</h1>
                     <div class="col-sm-6 col-md-offset-3">
                         <h1><strong>REGISTER</strong></h1>
-                        {!! Form::open(array('route' => 'register')) !!}
+                        {!! Form::open(array('route' => 'signup')) !!}
 
                         <div class="form-group">
                             {!! Form::label('First Name') !!}
-                            {!! Form::text('First Name', null, array('class' => 'form-control')) !!}
+                            {!! Form::text('first_name', null, array('class' => 'form-control')) !!}
                         </div>
 
                         <div class="form-group">
                             {!! Form::label('Last Name') !!}
-                            {!! Form::text('Last Name', null, array('class' => 'form-control')) !!}
+                            {!! Form::text('last_name', null, array('class' => 'form-control')) !!}
                         </div>
 
                         <div class="form-group">
                             {!! Form::label('Username') !!}
-                            {!! Form::text('Username', null, array('class' => 'form-control')) !!}
+                            {!! Form::text('username', null, array('class' => 'form-control')) !!}
                         </div>
 
                         <div class="form-group">
                             {!! Form::label('Phone Number') !!}
-                            {!! Form::number('Phone Number', null, array('class' => 'form-control')) !!}
+                            {!! Form::number('phone_number', null, array('class' => 'form-control')) !!}
                         </div>
 
                         <div class="form-group">

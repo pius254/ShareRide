@@ -25,13 +25,13 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#home">HOME</a></li>
-                                    <li><a href="#about"> ABOUT</a></li>
-                                    <li><a href="#service">SERVICES</a></li>
-                                    <li><a href="#team">TEAM</a></li>
-                                    <li><a href="#testimonial">TESTIMONIAL</a></li>
-                                    <li><a href="#">REGISTER</a></li>
-                                    <li><a href="#contact">CONTACT</a></li>
+                                    <li><a href="/">HOME</a></li>
+                                    <li><a href="/about"> ABOUT</a></li>
+                                    <li><a href="/services">SERVICES</a></li>
+                                    <li><a href="/team">TEAM</a></li>
+                                    <li><a href="/testimonials">TESTIMONIAL</a></li>
+                                    <li><a href="/signup">SIGN UP</a></li>
+                                    <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>
