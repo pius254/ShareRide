@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('content')	
+@section('content')
 	<!-- Registration :Start -->
         <section id="registration">
             <div class="container">
@@ -61,7 +61,7 @@
                             &nbsp;<span class="required">*</span>
                             {!! Form::password('password_confirmation', array('class' => 'form-control')) !!}
                         </div>
-                            
+
                             {!! Form::token() !!}
                             {!! Form::submit('Sign Up', array('class' => 'btn btn-primary')) !!}
 

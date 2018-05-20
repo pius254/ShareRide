@@ -43,5 +43,5 @@ Route::group(['middleware' => ['web']], function(){
 		return view('layouts.testimonials');
 	});
 
-	Route::post('/signup', ['as' => 'register', 'uses' => 'RegisterController@create']);
+	Route::resource('users', 'UserController', ['only' => ['create', 'store']]);
 });
