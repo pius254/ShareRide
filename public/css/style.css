@@ -1148,6 +1148,10 @@ input::-ms-input-placeholder {
     padding-bottom: 50px;
 }
 
+.required {
+    color: red;
+}
+
 
 
 
