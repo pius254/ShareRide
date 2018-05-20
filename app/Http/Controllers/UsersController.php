@@ -28,7 +28,14 @@ class UsersController extends Controller
         $user->password = Hash::make($request->get('password'));
         $user->save();
 
-        return redirect() -> route('users.index'); //TODO: change this redirect to the rides page or login page.
+        // return redirect() -> route('users.index'); 
+
+        if ($user) {
+            return "Successfully Registered";
+            return view('layouts.login');
+        }
+
+        return back()->withInputs();
     }
 
     public function index() {
@@ -41,7 +48,13 @@ class UsersController extends Controller
     }
 
     public function postLogin(Request $request) {
-        dd($request -> get('email_username'));
-        dd($request -> get('password'));
+        // dd($request -> get('email_username'));
+        // dd($request -> get('password'));
+        $data = $request->only('email_username','password');
+        if (\Auth::attempt($data)) {
+            return view('layouts.create_ride');
+        }
+
+        return back()->withInputs();
     }
 }

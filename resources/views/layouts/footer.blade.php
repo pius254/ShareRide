@@ -16,7 +16,7 @@
 
                             <div class="col-sm-4  col-xs-12">
                                 <div class="single_widget wow fadeIn" data-wow-duration="800ms">
-                                    <h4>OUR STUDIO</h4>
+                                    <h4>OUR OFFICES</h4>
                                     <ul>
                                         <li><a href="">
                                                 <i class="fa fa-map-marker"></i> 

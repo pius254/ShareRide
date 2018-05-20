@@ -18,26 +18,26 @@ Route::group(['middleware' => ['web']], function(){
     	return view('index');
 	});
 	
-	Route::get('/about', function (){
-		return view('layouts.about');
-	});
+	// Route::get('/about', function (){
+	// 	return view('layouts.about');
+	// });
 
 
-	Route::get('/contact', function (){
-		return view('layouts.contactUs');
-	});
+	// Route::get('/contact', function (){
+	// 	return view('layouts.contactUs');
+	// });
 
-	Route::get('/services', function (){
-		return view('layouts.services');
-	});
+	// Route::get('/services', function (){
+	// 	return view('layouts.services');
+	// });
 
-	Route::get('/team', function (){
-		return view('layouts.team');
-	});
+	// Route::get('/team', function (){
+	// 	return view('layouts.team');
+	// });
 
-	Route::get('/testimonials', function (){
-		return view('layouts.testimonials');
-	});
+	// Route::get('/testimonials', function (){
+	// 	return view('layouts.testimonials');
+	// });
 
 	Route::resource('users', 'UsersController');
 	Route::resource('rides', 'RidesController');

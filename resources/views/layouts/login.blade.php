@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-    <!-- Registration :Start -->
-    <section id="registration">
+    <!-- Login :Start -->
+    <section id="login">
         <div class="container">
             <div class="row">
                 <h1 class="text-uppercase text-center wow fadeInDown animated" data-wow-delay="2s">create account</h1>
@@ -41,5 +41,5 @@
         </div>
 
     </section>
-    <!-- Registration :End -->
+    <!-- Login :End -->
 @endsection

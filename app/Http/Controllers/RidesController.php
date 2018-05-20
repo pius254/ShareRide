@@ -15,7 +15,7 @@ class RidesController extends Controller
     }
 
     public function create() {
-        return \view('layouts.create_ride');
+        return view('layouts.create_ride');
     }
 
     public function store(RideFormRequest $request) {
