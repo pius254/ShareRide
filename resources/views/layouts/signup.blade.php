@@ -11,7 +11,7 @@
                     <h1 class="text-uppercase text-center wow fadeInDown animated" data-wow-delay="2s">create account</h1>
                     <div class="col-sm-6 col-md-offset-3">
                         <h1><strong>REGISTER</strong></h1>
-                        {!! Form::open(array('route' => 'register')) !!}
+                        {!! Form::open(array('route' => 'users.store')) !!}
 
                         <div class="form-group">
                             {!! Form::label('First Name') !!}
