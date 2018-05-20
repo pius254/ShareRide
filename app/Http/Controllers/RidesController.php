@@ -9,6 +9,11 @@ use Illuminate\View\View;
 
 class RidesController extends Controller
 {
+    function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function create() {
         return \view('layouts.create_ride');
     }

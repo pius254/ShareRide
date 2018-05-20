@@ -1152,6 +1152,10 @@ input::-ms-input-placeholder {
     color: red;
 }
 
+.content-container {
+    margin-top:100px; /* Fixes issues with the floating nav overlapping on the content */
+}
+
 
 
 

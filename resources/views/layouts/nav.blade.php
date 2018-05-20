@@ -31,6 +31,7 @@
                                     <li><a href="/team">TEAM</a></li>
                                     <li><a href="/testimonials">TESTIMONIAL</a></li>
                                     <li><a href="/users/create">SIGN UP</a></li>
+                                    <li><a href="/login">LOGIN</a></li>
                                     <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>

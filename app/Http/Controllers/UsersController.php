@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\UserFormRequest;
@@ -33,5 +34,14 @@ class UsersController extends Controller
     public function index() {
         $users = User::all();
         return \response($users); //TODO: This is only accessible to admins
+    }
+
+    public function login() {
+        return view('layouts.login');
+    }
+
+    public function postLogin(Request $request) {
+        dd($request -> get('email_username'));
+        dd($request -> get('password'));
     }
 }
