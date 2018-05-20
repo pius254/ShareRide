@@ -26,13 +26,13 @@
 
                                 <ul class="nav navbar-nav navbar-right">
                                     <li><a href="/">HOME</a></li>
-                                    <li><a href="/about"> ABOUT</a></li>
-                                    <li><a href="/services">SERVICES</a></li>
-                                    <li><a href="/team">TEAM</a></li>
-                                    <li><a href="/testimonials">TESTIMONIAL</a></li>
+                                    <li><a href="#about"> ABOUT</a></li>
+                                    <li><a href="#service">SERVICES</a></li>
+                                    <li><a href="#team">TEAM</a></li>
+                                    <li><a href="#testimonial">TESTIMONIAL</a></li>
                                     <li><a href="/users/create">SIGN UP</a></li>
                                     <li><a href="/login">LOGIN</a></li>
-                                    <li><a href="/contact">CONTACT</a></li>
+                                    <li><a href="#contact">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>

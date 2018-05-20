@@ -13,7 +13,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-clock-o"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>Shared Ride</h4>
@@ -24,7 +24,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-picture-o"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>Group Ride</h4>
@@ -35,7 +35,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-television"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>Single Ride</h4>
@@ -49,7 +49,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-object-group"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>Road Trip</h4>
@@ -60,7 +60,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-paint-brush"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>iDrive</h4>
@@ -71,7 +71,7 @@
                             <div class="col-sm-4">
                                 <div class="single_service">
                                     <div class="single_service_icon">
-                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-car"></i>
                                     </div>
                                     <div class="single_service_content">
                                         <h4>iSelect</h4>
