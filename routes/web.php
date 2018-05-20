@@ -17,10 +17,6 @@ Route::group(['middleware' => ['web']], function(){
 	Route::get('/', function () {
     	return view('index');
 	});
-
-	Route::get('/users/create', 'UsersController@getCreate') -> name('signup');
-	Route::post('/users/create', 'UsersController@postCreate');
-	Route::get('/signup', 'UsersController@getCreate');
 	
 	Route::get('/about', function (){
 		return view('layouts.about');
@@ -43,5 +39,6 @@ Route::group(['middleware' => ['web']], function(){
 		return view('layouts.testimonials');
 	});
 
-	Route::resource('users', 'UserController', ['only' => ['create', 'store']]);
+	Route::resource('users', 'UsersController');
+	Route::resource('rides', 'RidesController');
 });

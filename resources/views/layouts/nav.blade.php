@@ -30,7 +30,7 @@
                                     <li><a href="/services">SERVICES</a></li>
                                     <li><a href="/team">TEAM</a></li>
                                     <li><a href="/testimonials">TESTIMONIAL</a></li>
-                                    <li><a href="/signup">SIGN UP</a></li>
+                                    <li><a href="/users/create">SIGN UP</a></li>
                                     <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>

@@ -18,7 +18,7 @@
                                 </ul>
                             </div>
                         @endif
-                        {!! Form::open(array('route' => 'signup')) !!}
+                        {!! Form::open(array('route' => 'users.store')) !!}
 
                         <div class="form-group">
                             {!! Form::label('First name') !!}

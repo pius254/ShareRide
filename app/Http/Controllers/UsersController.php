@@ -2,20 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\UserFormRequest;
 use App\User;
-use Response;
+use Illuminate\Routing\Route;
 use View;
 
 class UsersController extends Controller
 {
-    public function getCreate()
+    public function create()
     {
         return view('layouts.signup');
     }
 
-    public function postCreate(UserFormRequest $request)
+    public function store(UserFormRequest $request)
     {
         $user = new User;
         $user-> first_name = $request->get('first_name');
@@ -26,6 +27,11 @@ class UsersController extends Controller
         $user->password = Hash::make($request->get('password'));
         $user->save();
 
-        return Response::make('user added');
+        return redirect() -> route('users.index'); //TODO: change this redirect to the rides page or login page.
+    }
+
+    public function index() {
+        $users = User::all();
+        return \response($users); //TODO: This is only accessible to admins
     }
 }

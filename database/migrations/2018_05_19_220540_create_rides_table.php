@@ -18,7 +18,7 @@ class CreateRidesTable extends Migration
             $table -> string('origin', 500);
             $table -> string('destination', 500);
             $table -> integer('capacity'); 
-            $table -> mediumText('description');
+            $table -> mediumText('description') -> nullable();
             $table->timestamps();                                   
         });
     }
