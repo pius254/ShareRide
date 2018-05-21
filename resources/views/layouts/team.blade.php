@@ -16,7 +16,7 @@
                                     </div>
                                     <div class="single_team_text">
                                         <h4>Sheldon Cooper</h4>
-                                        <p>CEO &amp; FOUNDER</p>
+                                        <p>CEO</p>
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                                         <img src="{{ asset('images/myteam.jpg') }}" alt="" />
                                     </div>
                                     <div class="single_team_text">
-                                        <h4>Msee wa cytonn</h4>
+                                        <h4>Mwaruwa Chaka</h4>
                                         <p>Business Development and Administration</p>
                                     </div>
                                 </div>

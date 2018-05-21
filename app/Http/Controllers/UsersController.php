@@ -31,7 +31,7 @@ class UsersController extends Controller
         // return redirect() -> route('users.index'); 
 
         if ($user) {
-            return "Successfully Registered";
+            // return "Successfully Registered";
             return view('layouts.login');
         }
 
